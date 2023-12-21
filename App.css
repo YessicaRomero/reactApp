@@ -1,0 +1,117 @@
+
+
+.status {
+  cursor: pointer
+}
+
+.completed {
+  text-decoration: line-through;
+  color: blueviolet
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: bisque;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.container{
+  display: flex;
+  display: block;
+  padding: 5px;
+  color: rgb(25, 78, 32);
+  border: 2px solid ;
+}
+table {    
+  display: flex;
+  display: block;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;  
+    margin: 45px;   
+      width: 90%; 
+      text-align: left;  
+        border-collapse: collapse;
+       }
+
+th {     
+
+  font-size: 13px;   
+    font-weight: normal; 
+        padding: 8px;   
+          background: #b9feca5e;
+  border-top: 4px solid #00000000;  
+    border-bottom: 1px solid #fff; color: rgba(2, 2, 2, 0.596);
+    
+}
+td {   
+  
+  width: 50%;
+   padding: 8px;     
+  background: #e8edff;  
+     border-bottom: 1px solid #fff;
+  color: rgb(123, 189, 172); 
+     border-top: 1px solid transparent; 
+    }
+
+tr:hover td { background: #d0dafd; color: rgb(147, 175, 102)51, 153, 90; }
+.Home{
+  display: flex;
+  border-color: antiquewhite;
+  color: rgb(226, 178, 114);
+
+}
+.list{
+  display: block;
+  color: rgb(135, 197, 181);
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  width: 90%;
+}
+li{
+list-style-type:none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgba(40, 49, 33, 0.699);
+}
+.principal{
+  display: flex;
+  display: block;
+  width: 94%;
+  background-color:rgb(240, 221, 193);
+
+  
+}
